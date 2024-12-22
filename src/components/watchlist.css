@@ -1,0 +1,51 @@
+.main-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies-heading{
+    padding: 20px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  border: 1px solid transparent;
+  border-radius: 10px;
+   
+}
+.cont button{
+    margin: 2rem 0;
+    width: 3rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.head {
+    background-color: transparent;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .5;
+    margin-top: 3rem;
+}
+.movies-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+   width: 6rem;
+   height: 2rem;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.movies-count span{
+    margin-right: 10px;
+}

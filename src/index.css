@@ -1,0 +1,70 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+  
+  font-family: "Poppins","Source Serif 3", serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*css colors*/
+:root{
+  --primary:#032541;
+  --secondary:#21d07a;
+  --white:#fff;
+}
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width :768px){
+.container{
+  width: 750px;
+}
+}
+@media (min-width :992px){
+  .container{
+    width: 970px;
+  }
+  }
+  @media (min-width :1200px){
+    .container{
+      width: 1170px;
+    }
+    }
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+ .btn{
+  padding: 10px 15px;
+  background-color: var(--secondary);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  transition: all .3s ease;
+  line-height: 1.1;
+ }
+ .btn:hover{
+  background-color: #1aa762;
+  opacity: 1;
+  cursor: pointer;
+ }
+ .btn:disabled{
+  pointer-events: none;
+  opacity: .5;
+ }
+ input:focus{
+  outline: none;
+ }
+
